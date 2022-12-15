@@ -12,12 +12,12 @@ const config = {
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
-    favicon: "img/favicon.ico",
+    favicon: "img/butterfly-knife.png",
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "vrajeshr", // Usually your GitHub org/user name.
+    projectName: "balisong-guide", // Usually your repo name.
 
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
@@ -82,11 +82,11 @@ const config = {
                         ],
                     },
                     {
-                        title: "Community",
+                        title: "Resources",
                         items: [
                             {
-                                label: "Stack Overflow",
-                                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                                label: "Reddit",
+                                href: "https://reddit.com/r/balisong/",
                             },
                             {
                                 label: "Discord",
@@ -98,21 +98,8 @@ const config = {
                             },
                         ],
                     },
-                    {
-                        title: "More",
-                        items: [
-                            {
-                                label: "Blog",
-                                to: "/blog",
-                            },
-                            {
-                                label: "GitHub",
-                                href: "https://github.com/facebook/docusaurus",
-                            },
-                        ],
-                    },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Balisong Guide, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
